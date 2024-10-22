@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* nav container */}
             <div className="container p-6 flex justify-between items-center">
                 {/* nav logo */}
-                <div className="w-[60px] md:w-[100px]">
+                <div className="w-[60px] sm:w-[80px] md:w-[100px]">
                     <img className="w-[100%]" src={logo} alt="Candied Logo" />
                 </div>
                 {/* nav menu */}
