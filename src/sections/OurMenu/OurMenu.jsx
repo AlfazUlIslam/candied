@@ -6,13 +6,20 @@ const OurMenu = () => {
         // our menu
         <section id="our-menu">
             {/* container */}
-            <div className="container px-6 py-[120px]">
+            <div className="container px-6 py-[60px]">
                 {/* title */}
-                <h6>Indulge</h6>
+                <h6 className="font-poppins font-normal text-[12px] 
+                text-[#000] text-center sm:text-[16px]">
+                    Indulge
+                </h6>
                 {/* heading */}
-                <h2>Our Menu</h2>
+                <h2 className="mt-[20px] mb-[100px] font-sail font-normal 
+                text-[45px] text-mediumPink text-center sm:text-[55px]">
+                    Our Menu
+                </h2>
                 {/* cards */}
-                <div>
+                <div className="flex flex-col justify-center 
+                items-center gap-[60px] md:flex-row md:flex-wrap">
                     <OurMenuCard
                         image={OurMenuImage1}
                         altText={"Our Menu Image 1"}
