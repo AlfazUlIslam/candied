@@ -1,5 +1,5 @@
 import { Navbar } from "./components"
-import { Banner, AboutUs, OurMenu, Testimonials } from "./sections"
+import { Banner, AboutUs, OurMenu, Testimonials, ContactUs } from "./sections"
 import './App.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <AboutUs />
       <OurMenu />
       <Testimonials />
+      <ContactUs />
     </div>
   )
 }
