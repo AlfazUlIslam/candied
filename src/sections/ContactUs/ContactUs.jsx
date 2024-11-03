@@ -51,7 +51,7 @@ const ContactUs = () => {
                 bg-mediumLightPink font-poppins font-normal 
                 text-[18px] text-[#FFF] flex justify-center 
                 items-center transition-all duration-1000 
-                hover:bg-darkPink">
+                hover:bg-darkPink active:scale-90">
                     Contact
                 </button>
             </div>
