@@ -8,7 +8,7 @@ const ContactUs = () => {
         {/* contact us container */}
         <div className="container px-6 py-[60px] flex flex-col 
         justify-center items-center gap-[98px] md:flex-row 
-        md:gap-[50px] xl:py-[120px]">
+        md:gap-[50px] xl:py-[120px] xl:gap-[98px]">
             {/* image */}
             <div>
                 <img 
