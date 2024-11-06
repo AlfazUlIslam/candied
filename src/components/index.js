@@ -4,3 +4,4 @@ export { default as TestimonialsCard } from "./TestimonialsCard/TestimonialsCard
 export { default as Dot } from "./Dot/Dot"
 export { default as Star } from "./Star/Star"
 export { default as Info } from "./Info/Info"
+export { default as GroupedImage } from "./GroupedImage/GroupedImage"

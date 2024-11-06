@@ -1,16 +1,32 @@
-import { groupedImage1, groupedImage2, groupedImage3, groupedImage4 } from "../../assets"
+import { GroupedImage } from "../../components"
+import { donuts, cake, icecream, icecreamMilkshake, } from "../../assets"
 
 const GroupedImages = () => {
     return (
         // grouped images
         <section id="grouped-images">
             {/* container */}
-            <div className="container px-6 py-[120px] 
-            flex justify-center items-center gap-[30px] ">
-                <img src={groupedImage1} alt="Grouped Image 1" />
-                <img src={groupedImage2} alt="Grouped Image 2" />
-                <img src={groupedImage3} alt="Grouped Image 3" />
-                <img src={groupedImage4} alt="Grouped Image 4" />
+            {/* py-[120px] flex-row gap-0 */}
+            <div className="container px-6 py-[60px] flex flex-col 
+            items-center gap-[30px] md:flex-row 
+            md:flex-wrap md:justify-center 
+            xl:flex-nowrap">
+                <GroupedImage
+                    image={donuts}
+                    altText={"Donuts"}
+                />
+                <GroupedImage
+                    image={cake}
+                    altText={"Cake"}
+                />
+                <GroupedImage
+                    image={icecream}
+                    altText={"Icecream"}
+                />
+                <GroupedImage
+                    image={icecreamMilkshake}
+                    altText={"Icecream Milkshake"}
+                />
             </div>
         </section>
     )
