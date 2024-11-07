@@ -3,7 +3,8 @@ const FooterLinksHeading = (props) => {
 
     return (
         // footer links heading
-        <h6>
+        <h6 className="font-poppins font-semibold text-[20px] 
+        text-lightBrownishMaroon">
             {content}
         </h6>
     )

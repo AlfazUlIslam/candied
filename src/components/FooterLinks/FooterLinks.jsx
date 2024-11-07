@@ -3,7 +3,8 @@ const FooterLinks = (props) => {
         
     return (
         // footer Links
-        <ul className={styles}>
+        <ul className="flex flex-col items-center 
+        gap-[7px]">
             {children}
         </ul>
     )
