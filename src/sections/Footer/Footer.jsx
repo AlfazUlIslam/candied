@@ -8,15 +8,18 @@ const Footer = () => {
     // footer
     <footer>
         {/* footer container */}
-        <div className="bg-footerPink flex gap-[200px]">
+        {/* flex-row gap-[200px] */}
+        <div className="bg-footerPink flex flex-col gap-[30px]">
             {/* column one */}
-            <ColumnOne styles={`w-[148px] h-[365px] bg-lightPink flex 
-            flex-col justify-center items-center gap-[55px]`}>
+            {/* w-[148px] h-[365px] flex-col gap-[55px] */}
+            <ColumnOne styles={`w-[100%] h-[65px] bg-lightPink flex 
+            justify-center items-center gap-[15px]`}>
                 {/* follow text */}
                 <div>
                     {/* text */}
+                    {/* text-[24px] */}
                     <span className="font-poppins font-semibold 
-                    text-[24px] text-darkBrownishMaroon">
+                    text-[20px] text-darkBrownishMaroon">
                         Follow
                     </span>
                     {/* line */}
@@ -25,7 +28,8 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* social icons */}
-                <div className="flex flex-col items-center gap-[30px]">
+                {/* flex-col gap-[30px] */}
+                <div className="flex items-center gap-[10px]">
                     <SocialIcon iconComponent={<FaFacebookSquare />} />
                     <SocialIcon iconComponent={<FaInstagramSquare />} />
                     <SocialIcon iconComponent={<FaLinkedinIn />} />
@@ -33,8 +37,9 @@ const Footer = () => {
                 </div>
             </ColumnOne>
             {/* column two */}
-            <ColumnTwo styles={`pt-[70px] px-[100px] flex items-start 
-            gap-[105px]`}>
+            {/* pt-[70px] px-[100px] flex-row items-start gap-[105px] */}
+            <ColumnTwo styles={`pt-[30px] flex flex-col items-center 
+            gap-[35px]`}>
                 {/* sub column one */}
                 <SubColumnOne>
                     {/* footer links */}
@@ -80,30 +85,40 @@ const Footer = () => {
             </ColumnTwo>
             {/* column three */}
             <ColumnThree styles={`py-[40px] flex flex-col items-center`}>
-                <header className="font-poppins font-semibold 
-                text-[24px] text-darkBrownishMaroon">
+                {/* w-auto mx-0 text-[24px] */}
+                <header className="w-[250px] mx-auto font-poppins 
+                font-semibold text-[22px] text-darkBrownishMaroon 
+                text-center">
                     Sign up for coupons, updates, and other fun stuff
                 </header>
-                <form className="w-[450px] my-[25px] flex">
+                {/* w-[450px] my-[25px */}
+                <form className="w-[280px] my-[25px] flex">
+                    {/* w-[336px] h-[54px] pl-[30px] text-[18px] */}
                     <input 
-                        className="pl-[30px] flex-1 h-[54px] 
-                        outline-none font-poppins font-light text-[18px] 
+                        className="w-[200px] h-[40px] pl-[10px] 
+                        outline-none font-poppins font-light text-[14px] 
                         text-[#C0C0C0] placeholder:text-center 
-                        focus:border focus:border-lightBrownishMaroon"
+                        focus:border focus:border-lightBrownishMaroon 
+                        focus:text-lightBrownishMaroon"
                         type="text" 
                         placeholder="Enter your email" 
                     />
-                    <button className="w-[114px] h-[54px] 
+                    {/* w-[114px] h-[54px] text-[18px] */}
+                    <button className="w-[80px] h-[40px] 
                     bg-darkBrownishMaroon font-poppins font-medium 
-                    text-[18px] text-[#FFF] cursor-pointer transition-all 
+                    text-[14px] text-[#FFF] cursor-pointer transition-all 
                     duration-1000 hover:bg-lightBrownishMaroon 
                     active:scale-90">
                         Submit
                     </button>
                 </form>
                 {/* footer logo */}
-                <div>
-                    <img src={logo} alt="Candied Logo" />
+                <div className="w-[80px] sm:w-[80px] md:w-[100px]">
+                    <img 
+                        className="w-[100%]" 
+                        src={logo} 
+                        alt="Candied Logo" 
+                    />
                 </div>
             </ColumnThree>
         </div>

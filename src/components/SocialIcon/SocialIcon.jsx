@@ -3,7 +3,8 @@ const SocialIcon = (props) => {
         
     return (
         // socila icon
-        <i className="text-[30px] text-lightBrownishMaroon 
+        // text-[30px]
+        <i className="text-[20px] text-lightBrownishMaroon 
         cursor-pointer transition-all duration-1000 
         hover:text-darkPink">
             {iconComponent}
