@@ -6,7 +6,7 @@ const SocialIcon = (props) => {
         // text-[30px]
         <i className="text-[20px] text-lightBrownishMaroon 
         cursor-pointer transition-all duration-1000 
-        hover:text-darkPink">
+        hover:text-darkPink sm:text-[22px] md:text-[20px]">
             {iconComponent}
         </i>
     )
