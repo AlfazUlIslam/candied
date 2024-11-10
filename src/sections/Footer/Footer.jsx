@@ -8,21 +8,19 @@ const Footer = () => {
     // footer
     <footer>
         {/* footer container */}
-        {/* flex-row gap-[200px] */}
         <div className="bg-footerPink flex flex-col gap-[30px] 
-        md:flex-row md:justify-between">
+        md:flex-row md:justify-between xl:justify-start xl:gap-[200px]">
             {/* column one */}
-            {/* w-[148px] h-[365px] flex-col gap-[55px] */}
             <ColumnOne styles={`w-[100%] h-[65px] bg-lightPink flex 
             justify-center items-center gap-[15px] md:w-[100px] 
-            md:h-[365px] md:flex-col`}>
+            md:h-[365px] md:flex-col md:justify-start md:pt-[60px] 
+            xl:w-[148px] xl:pt-0 xl:justify-center xl:gap-[55px]`}>
                 {/* follow text */}
                 <div>
                     {/* text */}
-                    {/* text-[24px] */}
                     <span className="font-poppins font-semibold 
                     text-[20px] text-darkBrownishMaroon sm:text-[22px] 
-                    md:text-[20px]">
+                    md:text-[20px] xl:text-[24px]">
                         Follow
                     </span>
                     {/* line */}
@@ -31,9 +29,8 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* social icons */}
-                {/* flex-col gap-[30px] */}
                 <div className="flex items-center gap-[10px] 
-                sm:gap-[20px] md:flex-col">
+                sm:gap-[20px] md:flex-col xl:gap-[30px]">
                     <SocialIcon iconComponent={<FaFacebookSquare />} />
                     <SocialIcon iconComponent={<FaInstagramSquare />} />
                     <SocialIcon iconComponent={<FaLinkedinIn />} />
@@ -41,10 +38,9 @@ const Footer = () => {
                 </div>
             </ColumnOne>
             {/* column two */}
-            {/* pt-[70px] px-[100px] flex-row items-start gap-[105px] */}
             <ColumnTwo styles={`pt-[30px] flex flex-col items-center 
             gap-[35px] sm:flex-row sm:justify-center sm:items-start 
-            md:pt-[60px]`}>
+            md:pt-[60px] xl:pt-[70px] xl:px-[100px] xl:gap-[105px]`}>
                 {/* sub column one */}
                 <SubColumnOne>
                     {/* footer links */}
@@ -91,32 +87,31 @@ const Footer = () => {
             {/* column three */}
             <ColumnThree styles={`py-[40px] flex flex-col items-center 
             md:pt-[60px] md:pr-6`}>
-                {/* w-auto mx-0 text-[24px] */}
                 <header className="w-[250px] mx-auto font-poppins 
                 font-semibold text-[22px] text-darkBrownishMaroon 
-                text-center sm:w-[400px] md:w-[250px]">
+                text-center sm:w-[400px] md:w-[250px] xl:w-auto 
+                xl:mx-0 xl:text-[24px]">
                     Sign up for coupons, updates, and other fun stuff
                 </header>
-                {/* w-[450px] my-[25px */}
                 <form className="w-[280px] my-[25px] flex 
-                sm:w-[350px] md:w-[280px]">
-                    {/* w-[336px] h-[54px] pl-[30px] text-[18px] */}
+                sm:w-[350px] md:w-[280px] xl:w-[450px]">
                     <input 
                         className="w-[200px] h-[40px] pl-[10px] 
                         outline-none font-poppins font-light text-[14px] 
                         text-[#C0C0C0] placeholder:text-center 
                         focus:border focus:border-lightBrownishMaroon 
                         focus:text-lightBrownishMaroon sm:w-[250px] 
-                        md:w-[200px]"
+                        md:w-[200px] xl:w-[336px] xl:h-[54px] xl:pl-[30px] 
+                        xl:text-[18px]"
                         type="text" 
                         placeholder="Enter your email" 
                     />
-                    {/* w-[114px] h-[54px] text-[18px] */}
                     <button className="w-[80px] h-[40px] 
                     bg-darkBrownishMaroon font-poppins font-medium 
                     text-[14px] text-[#FFF] cursor-pointer transition-all 
                     duration-1000 hover:bg-lightBrownishMaroon 
-                    active:scale-90 sm:w-[100px] md:w-[80px]">
+                    active:scale-90 sm:w-[100px] md:w-[80px] 
+                    xl:w-[114px] xl:h-[54px] xl:text-[18px]">
                         Submit
                     </button>
                 </form>
