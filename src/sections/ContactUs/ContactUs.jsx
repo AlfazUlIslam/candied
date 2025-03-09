@@ -4,7 +4,7 @@ import { Info } from "../../components"
 const ContactUs = () => {
   return (
     // contact us
-    <section id="contact-us">
+    <section id="contact">
         {/* contact us container */}
         <div className="container px-6 py-[60px] flex flex-col 
         justify-center items-center gap-[98px] md:flex-row 

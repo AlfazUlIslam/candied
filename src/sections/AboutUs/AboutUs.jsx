@@ -3,7 +3,7 @@ import { aboutUsImage } from "../../assets"
 const AboutUs = () => {
   return (
     // about us section
-    <section id="about-us">
+    <section id="about">
         {/* about us container */}
         <div className="container px-6 py-[60px] flex 
         flex-col items-center gap-6 md:py-[80px] md:flex-row 

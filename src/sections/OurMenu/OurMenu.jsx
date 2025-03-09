@@ -4,7 +4,7 @@ import { OurMenuImage1, OurMenuImage2, OurMenuImage3, OurMenuImage4, OurMenuImag
 const OurMenu = () => {
     return (
         // our menu
-        <section id="our-menu">
+        <section id="menu">
             {/* container */}
             <div className="container px-6 py-[60px]">
                 {/* title */}

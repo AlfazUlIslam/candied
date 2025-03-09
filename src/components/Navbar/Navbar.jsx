@@ -21,11 +21,11 @@ const Navbar = () => {
                 </div>
                 {/* nav menu */}
                 <div className="hidden md:flex md:justify-center md:items-center md:gap-[30px]">
-                    <NavLink content={"Home"} />
-                    <NavLink content={"Menu"} />
-                    <NavLink content={"Testimonials"} />
-                    <NavLink content={"About us"} />
-                    <NavLink content={"Contact"} />
+                    <NavLink href="home" content={"Home"} />
+                    <NavLink href="menu" content={"Menu"} />
+                    <NavLink href="testimonials" content={"Testimonials"} />
+                    <NavLink href="about" content={"About us"} />
+                    <NavLink href="contact" content={"Contact"} />
                     {/* nav user icon */}
                     <div className="ml-[20px]">
                         <img src={user} alt="User Icon" />
@@ -42,11 +42,11 @@ const Navbar = () => {
                     {/* mobile menu */}
                     {toggle && 
                     <div className="min-w-[9rem] rounded-lg bg-[#FFF] shadow-xl py-4 flex flex-col items-center gap-2 absolute top-14 -right-4 slide-up">
-                        <NavLink content={"Home"} />
-                        <NavLink content={"Menu"} />
-                        <NavLink content={"Testimonials"} />
-                        <NavLink content={"About us"} />
-                        <NavLink content={"Contact"} />
+                        <NavLink href="home" content={"Home"} />
+                        <NavLink href="menu" content={"Menu"} />
+                        <NavLink href="testimonials" content={"Testimonials"} />
+                        <NavLink href="about" content={"About us"} />
+                        <NavLink href="contact" content={"Contact"} />
                         {/* nav user icon */}
                         <div className="mt-4">
                             <img src={user} alt="User Icon" />

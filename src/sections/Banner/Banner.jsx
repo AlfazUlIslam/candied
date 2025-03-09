@@ -3,7 +3,7 @@ import { macaroons } from "../../assets"
 const Banner = () => {
   return (
     <section 
-        id="banner"
+        id="home"
         className="bg-cover bg-center bg-no-repeat"
         style={{backgroundImage: `url(${macaroons})`}}
     >
