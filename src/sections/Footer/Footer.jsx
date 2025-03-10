@@ -40,7 +40,7 @@ const Footer = () => {
             {/* column two */}
             <ColumnTwo styles={`pt-[30px] flex flex-col items-center 
             gap-[35px] sm:flex-row sm:justify-center sm:items-start 
-            md:pt-[60px] xl:pt-[70px] xl:px-[100px] xl:gap-[105px]`}>
+            md:pt-[60px] xl:pt-[70px]`}>
                 {/* sub column one */}
                 <SubColumnOne>
                     {/* footer links */}
